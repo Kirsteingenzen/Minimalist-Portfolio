@@ -1,0 +1,63 @@
+      <!-- PROJECTS -->
+      <section id="projects" class="projects">
+        <h2 class="section-title neon-title">MY <span>PROJECTS</span></h2>
+        <p class="projects-subtitle">Showcasing my latest work and creations</p>
+
+        <div class="project-cards">
+
+          <!-- Study TermTrack -->
+          <a href="https://kirsteingenzen.github.io/Study-TermTrack/" target="_blank" class="project-card">
+            <img src="https://api.microlink.io/?url=https://kirsteingenzen.github.io/Study-TermTrack/&screenshot=true&meta=false&embed=screenshot.url" class="project-img" alt="Study TermTrack" />
+            <div class="project-content">
+              <h3>Study TermTrack</h3>
+              <p>An academic time management web app…</p>
+              <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            </div>
+          </a>
+
+          <!-- Planarity Nexus -->
+          <a href="https://kirsteingenzennojapa.github.io/Planarity-Nexus/" target="_blank" class="project-card">
+            <img src="https://api.microlink.io/?url=https://kirsteingenzennojapa.github.io/Planarity-Nexus/&screenshot=true&meta=false&embed=screenshot.url" class="project-img" alt="Planarity Nexus" />
+            <div class="project-content">
+              <h3>Planarity Nexus</h3>
+              <p>A puzzle-based interactive platform…</p>
+              <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            </div>
+          </a>
+
+          <!-- Mobile Controller -->
+          <a href="https://mobile-phone-controller-78vl.vercel.app/" target="_blank" class="project-card">
+            <img src="https://api.microlink.io/?url=https://mobile-phone-controller-78vl.vercel.app/&screenshot=true&meta=false&embed=screenshot.url" class="project-img" alt="Mobile Controller" />
+            <div class="project-content">
+              <h3>Mobile Controller App</h3>
+              <p>A responsive mobile-to-web controller…</p>
+              <div class="tags"><span>React</span><span>Vercel</span></div>
+            </div>
+          </a>
+
+          <!-- A-Frame Group Activity -->
+          <a href="https://group-activity-a-frame-two.vercel.app/" target="_blank" class="project-card">
+            <img src="https://api.microlink.io/?url=https://group-activity-a-frame-two.vercel.app/&screenshot=true&meta=false&embed=screenshot.url" class="project-img" alt="A-Frame Activity" />
+            <div class="project-content">
+              <h3>Group Activity (A-Frame)</h3>
+              <p>A browser-based 3D environment powered by A-Frame, designed for immersive group activity interactions.</p>
+              <div class="tags"><span>WebXR</span><span>A-Frame</span><span>3D</span></div>
+            </div>
+          </a>
+
+          <!-- 2D Shooter -->
+          <a href="https://2d-shooter.vercel.app/" target="_blank" class="project-card">
+            <img src="https://api.microlink.io/?url=https://2d-shooter.vercel.app/&screenshot=true&meta=false&embed=screenshot.url" class="project-img" alt="2D Shooter" />
+            <div class="project-content">
+              <h3>2D Shooter Game</h3>
+              <p>An interactive 2D browser-based shooting game featuring movement controls and enemy mechanics.</p>
+              <div class="tags"><span>JavaScript</span><span>Game Dev</span><span>Vercel</span></div>
+            </div>
+          </a>
+
+          <!-- SMARTGRADE WEB SYSTEM -->
+          <a href="https://smartgrade-vue.vercel.app/login" target="_blank" class="project-card">
+            <img src="https://api.microlink.io/?url=https://smartgrade-vue.vercel.app/login&screenshot=true&meta=false&embed=screenshot.url" class="project-img" alt="SMARTGRADE Web" />
+            <div class="project-content">
+
+      </section>

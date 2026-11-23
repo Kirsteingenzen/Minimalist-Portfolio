@@ -3,156 +3,281 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kirstein Genzen Nojapa — Portfolio</title>
-  <meta name="description" content="Minimal editorial portfolio for Kirstein Genzen Nojapa, focused on web systems, design, and automation.">
+  <meta name="theme-color" content="#f5f2eb">
+  <title>Kirstein Genzen Nojapa | GoHighLevel Funnels &amp; Automation</title>
+  <meta name="description" content="Kirstein Genzen Nojapa builds GoHighLevel funnels, CRM automations, and landing pages for service businesses in Butuan City, Philippines.">
+  <link rel="canonical" href="https://kirsteingenzen.github.io/Minimalist-Portfolio/">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_PH">
+  <meta property="og:site_name" content="Kirstein Genzen Nojapa">
+  <meta property="og:title" content="Kirstein Genzen Nojapa | Funnels, CRM &amp; Automation">
+  <meta property="og:description" content="GoHighLevel funnels, CRM systems, and follow-up automation for service businesses. Based in Butuan City, Philippines.">
+  <meta property="og:url" content="https://kirsteingenzen.github.io/Minimalist-Portfolio/">
+  <meta property="og:image" content="https://kirsteingenzen.github.io/Minimalist-Portfolio/me.jpg">
+  <meta property="og:image:alt" content="Kirstein Genzen Nojapa, GoHighLevel automation specialist and web developer">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Kirstein Genzen Nojapa | Funnels, CRM &amp; Automation">
+  <meta name="twitter:description" content="GoHighLevel funnels, CRM systems, and follow-up automation for service businesses. Based in Butuan City, Philippines.">
+  <meta name="twitter:image" content="https://kirsteingenzen.github.io/Minimalist-Portfolio/me.jpg">
+  <meta name="twitter:image:alt" content="Kirstein Genzen Nojapa, GoHighLevel automation specialist and web developer">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="sitemap" type="application/xml" href="sitemap.xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "@id": "https://kirsteingenzen.github.io/Minimalist-Portfolio/#website",
+          "url": "https://kirsteingenzen.github.io/Minimalist-Portfolio/",
+          "name": "Kirstein Genzen Nojapa",
+          "inLanguage": "en-PH",
+          "publisher": { "@id": "https://kirsteingenzen.github.io/Minimalist-Portfolio/#person" }
+        },
+        {
+          "@type": "Person",
+          "@id": "https://kirsteingenzen.github.io/Minimalist-Portfolio/#person",
+          "name": "Kirstein Genzen Nojapa",
+          "url": "https://kirsteingenzen.github.io/Minimalist-Portfolio/",
+          "image": "https://kirsteingenzen.github.io/Minimalist-Portfolio/me.jpg",
+          "email": "mailto:genzennojapa@gmail.com",
+          "jobTitle": "GoHighLevel Automation Specialist, Funnel Builder, and Web Developer",
+          "description": "GoHighLevel automation specialist, funnel builder, and web developer based in Butuan City, Philippines.",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Butuan City",
+            "addressCountry": "PH"
+          },
+          "knowsAbout": [
+            "GoHighLevel",
+            "Sales funnels",
+            "CRM pipelines",
+            "Marketing automation",
+            "Landing page design",
+            "Web development"
+          ]
+        }
+      ]
+    }
+  </script>
 </head>
 <body>
-  <header id="site-header">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="scroll-progress" id="scroll-progress" role="progressbar" aria-label="Page reading progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+    <span id="scroll-progress-fill"></span>
+  </div>
+
+  <header class="site-header" id="site-header">
     <div class="wrap nav-inner">
       <a href="index.html" class="mark" aria-label="Kirstein Genzen Nojapa home">Kirstein Genzen <span>Nojapa</span></a>
-      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
-        <span></span><span></span>
-      </button>
-      <nav aria-label="Main navigation">
+      <nav id="site-nav" aria-label="Main navigation">
         <ul id="navList">
-          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="index.html" aria-current="page">Home</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="work.html">Work</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
+      <div class="nav-actions">
+        <button class="theme-toggle" id="themeToggle" type="button" aria-pressed="false" aria-label="Enable dark theme">Dark mode</button>
+        <button class="nav-toggle" id="navToggle" type="button" aria-label="Open navigation menu" aria-controls="site-nav" aria-expanded="false">
+          <span></span><span></span>
+        </button>
+      </div>
     </div>
   </header>
 
-  <main id="top">
-    <section class="hero">
+  <main id="main">
+    <section class="hero section-shell" id="top">
       <div class="wrap hero-grid">
-        <div class="hero-copy">
-          <p class="eyebrow">Portfolio / Available for selected projects</p>
-          <h1>Designing systems that turn attention into action.</h1>
-          <p class="lede">I build minimalist web experiences, conversion-focused funnels, and structured automation to help businesses move faster and look sharper.</p>
+        <div class="hero-copy" data-reveal>
+          <p class="eyebrow"><span class="status-dot"></span> Independent builder / Butuan City, PH</p>
+          <h1>Good leads deserve a <em>better journey.</em></h1>
+          <p class="hero-lede">I build GoHighLevel funnels, CRM pipelines, and follow-up automations that help service businesses turn more interest into real conversations.</p>
+          <p class="hero-specialty">From first click to follow-up, I build <span id="rotating-skill" aria-hidden="true">Funnels</span><span class="sr-only">funnels, CRM automations, landing pages, and web design.</span><span class="typing-caret" aria-hidden="true"></span></p>
           <div class="hero-actions">
-            <a href="work.html" class="button button-dark">View work</a>
-            <a href="about.html" class="text-link">About me</a>
+            <a class="button button-dark" href="work.html" data-cursor="Explore">Explore selected work <span aria-hidden="true">↗</span></a>
+            <a class="text-link" href="#contact">Tell me what you’re building</a>
           </div>
+          <div class="hero-footnote"><span>Strategy</span><i></i><span>Systems</span><i></i><span>Momentum</span></div>
         </div>
-
-        <div class="hero-visual" aria-label="Editorial portfolio concept">
-          <div class="photo-block tall"></div>
-          <div class="photo-block wide"></div>
-          <div class="floating-stat">
-            <span class="dot"></span>
-            <strong>4+</strong>
-            <small>Years across design, automation, and web systems</small>
-          </div>
+        <div class="hero-portrait" data-reveal data-reveal-delay="120">
+          <img src="me.jpg" alt="Kirstein Genzen Nojapa in Butuan City" fetchpriority="high">
+          <div class="portrait-note"><span class="portrait-note-index">01 / 03</span><span>Clear journeys.<br>Calmer operations.</span></div>
+          <span class="portrait-orbit" aria-hidden="true"></span>
         </div>
       </div>
+      <a class="scroll-cue" href="#proof"><span>Scroll to explore</span><span class="scroll-cue-line" aria-hidden="true"></span></a>
     </section>
 
-    <section class="feature-block">
-      <div class="wrap feature-module">
-        <div class="feature-intro">
-          <p class="eyebrow soft">Selected project</p>
-          <h2>Clean digital systems built for clarity, speed, and conversion.</h2>
-        </div>
-
-        <div class="feature-body">
-          <div class="feature-image image-one"></div>
-          <div class="feature-copy">
-            <p>From client-facing funnels to polished landing pages and automation logic, I help businesses create a stronger online presence without the clutter.</p>
-            <p>My approach stays lean: strategic structure, editorial rhythm, and functional workflows that feel effortless to use.</p>
-            <a href="work.html" class="text-link">See all projects</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="services-section">
+    <section class="proof-section section-shell" id="proof">
       <div class="wrap">
-        <div class="section-header">
-          <p class="eyebrow">Capabilities</p>
-          <h2>Focused work across strategy, design, and automation.</h2>
+        <div class="section-heading" data-reveal>
+          <p class="eyebrow">A little context</p>
+          <h2>Built to make the next step <em>obvious.</em></h2>
+          <p class="section-intro">No disconnected tools. No mystery handoffs. Just a more considered path from “I’m interested” to “Let’s talk.”</p>
         </div>
+        <div class="metrics-grid" data-stagger>
+          <article class="metric-card" data-reveal>
+            <span class="metric-number" data-counter data-target="4" data-suffix="+">4+</span>
+            <span class="metric-label">Years across web, design &amp; automation</span>
+          </article>
+          <article class="metric-card" data-reveal>
+            <span class="metric-number" data-counter data-target="6">6</span>
+            <span class="metric-label">Live web projects currently featured</span>
+          </article>
+          <article class="metric-card" data-reveal>
+            <span class="metric-number metric-placeholder" data-counter data-target="REPLACE_WITH_METRIC">—</span>
+            <span class="metric-label">Automations built <small>Replace with a verified count</small></span>
+          </article>
+        </div>
+        <a class="section-next" href="work.html">See what’s on the workbench <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
 
-        <div class="services-grid">
-          <article class="service-card">
-            <span class="service-index">01</span>
-            <h3>Web design</h3>
-            <p>Editorial layouts, clean interfaces, and conversion-minded pages built with simplicity in mind.</p>
-          </article>
-          <article class="service-card">
-            <span class="service-index">02</span>
-            <h3>Funnels &amp; landing pages</h3>
-            <p>Lead capture experiences structured around user flow, clarity, and fast decision-making.</p>
-          </article>
-          <article class="service-card">
-            <span class="service-index">03</span>
-            <h3>CRM &amp; automations</h3>
-            <p>Workflow systems that route leads, trigger follow-up, and keep operations moving without friction.</p>
-          </article>
-          <article class="service-card">
-            <span class="service-index">04</span>
-            <h3>Brand systems</h3>
-            <p>Visual direction that feels minimal, refined, and consistent across digital touchpoints.</p>
-          </article>
+    <section class="selected-section section-shell" id="selected-work">
+      <div class="wrap">
+        <div class="section-heading section-heading-split" data-reveal>
+          <div><p class="eyebrow">Selected work</p><h2>Proof should be <em>easy to scan.</em></h2></div>
+          <p class="section-intro">A few things I’ve built and designed. Open a project to see what’s live—and where to add the details only you can verify.</p>
+        </div>
+        <div class="teaser-grid" data-stagger>
+          <a class="teaser-card" href="work.html#project-study-termtrack" data-reveal data-cursor="View">
+            <span class="teaser-image teaser-image-app"><span class="browser-bar"><i></i><i></i><i></i></span><span class="app-preview"><b>TERMTRACK</b><span>Plan your semester<br>with a little more calm.</span><span class="preview-line"></span><span class="preview-line short"></span></span><span class="preview-note">Illustrative preview / add a real screenshot</span></span>
+            <span class="teaser-meta"><span>Web app / Student productivity</span><span aria-hidden="true">↗</span></span>
+            <strong>Study TermTrack</strong>
+          </a>
+          <a class="teaser-card" href="work.html#project-campaign" data-reveal data-cursor="View">
+            <span class="teaser-image teaser-image-art"><img src="Projects-works/TASK%20CAROUSEL/Task%20business%20promotion/1.png" alt="" loading="lazy"></span>
+            <span class="teaser-meta"><span>Visual campaign / Carousel</span><span aria-hidden="true">↗</span></span>
+            <strong>Business promotion system</strong>
+          </a>
+          <a class="teaser-card" href="work.html#project-planarity" data-reveal data-cursor="View">
+            <span class="teaser-image teaser-image-puzzle"><span class="puzzle-orbit" aria-hidden="true"></span><span>PLANARITY<br><em>NEXUS</em></span><small>Interactive web experience</small><span class="preview-note">Illustrative preview / add a real screenshot</span></span>
+            <span class="teaser-meta"><span>Web project / Interactive</span><span aria-hidden="true">↗</span></span>
+            <strong>Planarity Nexus</strong>
+          </a>
+        </div>
+        <a class="section-next" href="work.html">Browse all projects and case studies <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+
+    <section class="journey-section section-shell" id="journey">
+      <div class="wrap journey-layout">
+        <div class="journey-intro" data-reveal>
+          <p class="eyebrow">Funnel journey / Click a step</p>
+          <h2>The follow-up starts <em>before</em> the form.</h2>
+          <p class="section-intro">A good funnel isn’t a page. It’s a sequence where every handoff feels natural—and nobody has to wonder what happens next.</p>
+          <a class="text-link" href="#contact">Map a journey with me <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="journey-demo" data-reveal data-reveal-delay="100">
+          <div class="journey-track" role="group" aria-label="Interactive lead journey">
+            <button type="button" class="journey-step is-active" data-journey-step="ad" aria-pressed="true"><span>01</span><strong>Ad</strong><i aria-hidden="true">↗</i></button>
+            <button type="button" class="journey-step" data-journey-step="landing" aria-pressed="false"><span>02</span><strong>Landing page</strong><i aria-hidden="true">↗</i></button>
+            <button type="button" class="journey-step" data-journey-step="form" aria-pressed="false"><span>03</span><strong>Form</strong><i aria-hidden="true">↗</i></button>
+            <button type="button" class="journey-step" data-journey-step="pipeline" aria-pressed="false"><span>04</span><strong>Pipeline</strong><i aria-hidden="true">↗</i></button>
+            <button type="button" class="journey-step" data-journey-step="followup" aria-pressed="false"><span>05</span><strong>Follow-up</strong><i aria-hidden="true">↗</i></button>
+            <button type="button" class="journey-step" data-journey-step="booked" aria-pressed="false"><span>06</span><strong>Booked call</strong><i aria-hidden="true">↗</i></button>
+          </div>
+          <div class="journey-detail" id="journey-description" aria-live="polite">
+            <span class="journey-detail-kicker">01 / First impression</span>
+            <p>A clear promise catches the right person’s attention and gives them one useful next step.</p>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="work-strip">
-      <div class="wrap work-strip-inner">
-        <p class="eyebrow">Recent work</p>
-        <div class="marquee" aria-label="Tool and discipline list">
-          <div class="marquee-track">
-            <span>GoHighLevel</span>
-            <span>WordPress</span>
-            <span>Funnel design</span>
-            <span>CRM flows</span>
-            <span>Automation</span>
-            <span>Brand systems</span>
-            <span>UI design</span>
-            <span>Landing pages</span>
-          </div>
-          <div class="marquee-track" aria-hidden="true">
-            <span>GoHighLevel</span>
-            <span>WordPress</span>
-            <span>Funnel design</span>
-            <span>CRM flows</span>
-            <span>Automation</span>
-            <span>Brand systems</span>
-            <span>UI design</span>
-            <span>Landing pages</span>
-          </div>
+    <section class="capabilities-section section-shell" id="capabilities">
+      <div class="wrap">
+        <div class="section-heading" data-reveal>
+          <p class="eyebrow">What I can help with</p>
+          <h2>One clean journey, <em>not five disconnected tools.</em></h2>
         </div>
+        <div class="capability-grid" data-stagger>
+          <article class="capability-card" data-reveal><span>01 / Capture</span><h3>Funnels &amp; landing pages</h3><p>Focused pages with a clear offer, useful proof, and a next step that doesn’t get lost.</p><a href="#contact" aria-label="Ask about funnels and landing pages">Talk funnels <span aria-hidden="true">↗</span></a></article>
+          <article class="capability-card" data-reveal><span>02 / Organize</span><h3>CRM &amp; pipelines</h3><p>Lead stages and handoffs that make it easier to see who needs attention—and when.</p><a href="#contact" aria-label="Ask about CRM and pipelines">Talk CRM <span aria-hidden="true">↗</span></a></article>
+          <article class="capability-card" data-reveal><span>03 / Follow through</span><h3>GoHighLevel automations</h3><p>Thoughtful follow-up that keeps a conversation warm without making the experience feel robotic.</p><a href="#contact" aria-label="Ask about GoHighLevel automations">Talk automation <span aria-hidden="true">↗</span></a></article>
+          <article class="capability-card" data-reveal><span>04 / Refine</span><h3>Web design &amp; builds</h3><p>Fast, responsive web experiences with a little personality and a lot of clarity.</p><a href="#contact" aria-label="Ask about web design and development">Talk web design <span aria-hidden="true">↗</span></a></article>
+        </div>
+        <a class="section-next" href="about.html">A little more about how I work <span aria-hidden="true">↗</span></a>
       </div>
     </section>
 
-    <section id="contact" class="contact-section">
-      <div class="wrap contact-grid">
-        <div>
-          <p class="eyebrow">Contact</p>
-          <h2>Available for work that values clarity and craft.</h2>
+    <section class="tools-section section-shell" id="tools">
+      <div class="wrap tools-layout">
+        <div data-reveal><p class="eyebrow">Tools &amp; stack</p><h2>A small stack, <em>carefully connected.</em></h2><p class="section-intro">The right tool is the one that makes the next step simpler. <small>Update this list to match the tools you actively use.</small></p></div>
+        <div class="tools-grid" data-stagger aria-label="Tools and technologies">
+          <span data-reveal>GoHighLevel</span><span data-reveal>WordPress</span><span data-reveal>Make</span><span data-reveal>Zapier</span><span data-reveal>Figma</span><span data-reveal>Canva</span><span data-reveal>HTML / CSS</span><span data-reveal>JavaScript</span>
         </div>
-        <div class="contact-links">
-          <a href="mailto:genzennojapa@gmail.com" class="contact-email">genzennojapa@gmail.com</a>
-          <a href="tel:+639703517425">+63 970 351 7425</a>
-          <a href="#top">Back to top</a>
+      </div>
+      <div class="wrap tools-cta"><a class="section-next" href="work.html">See the tools in context <span aria-hidden="true">↗</span></a></div>
+    </section>
+
+    <section class="testimonial-section section-shell" id="kind-words">
+      <div class="wrap testimonial-layout">
+        <div data-reveal><p class="eyebrow">Kind words</p><h2>Trust is built in <em>the follow-through.</em></h2><p class="section-intro">The best proof comes from the people on the other side of the work.</p></div>
+        <div class="testimonial-slider" id="testimonialSlider" role="region" aria-label="Client testimonials" aria-describedby="testimonialHelp" tabindex="0" data-reveal>
+          <div class="testimonial-slides" aria-live="polite">
+            <figure class="testimonial-slide is-active">
+              <span class="placeholder-label">Testimonial placeholder / Replace with a real quote</span>
+              <blockquote>“Add a real client quote here about the experience, the work, or the outcome.”</blockquote>
+              <figcaption><strong>Client name</strong><span>Role / company</span></figcaption>
+            </figure>
+            <figure class="testimonial-slide" hidden>
+              <span class="placeholder-label">Testimonial placeholder / Replace with a real quote</span>
+              <blockquote>“A second real perspective can help a future client picture what working together feels like.”</blockquote>
+              <figcaption><strong>Client name</strong><span>Role / company</span></figcaption>
+            </figure>
+          </div>
+          <div class="slider-controls">
+            <span class="slider-count" id="testimonialCount">01 / 02</span>
+            <div><button type="button" class="slider-button" data-slide="previous" aria-label="Previous testimonial">←</button><button type="button" class="slider-button" data-slide="next" aria-label="Next testimonial">→</button></div>
+          </div>
+          <p class="sr-only" id="testimonialHelp">Use the left and right arrow keys or swipe to change testimonial.</p>
         </div>
+        <a class="section-next" href="#contact">Start a conversation of your own <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+
+    <section class="contact-section section-shell" id="contact">
+      <div class="wrap contact-layout">
+        <div class="contact-intro" data-reveal>
+          <p class="eyebrow">Contact / Currently open to select projects</p>
+          <h2>Where does your customer journey <em>get stuck?</em></h2>
+          <p class="section-intro">Tell me what you’re trying to build—or what isn’t working yet. I’ll reply personally and we can figure out the right next step.</p>
+          <a class="button button-outline" data-booking-link href="mailto:genzennojapa@gmail.com?subject=Let%27s%20talk%20about%20a%20project">Book a call <span aria-hidden="true">↗</span></a>
+          <p class="booking-note" id="bookingNote">Booking link not ready? This button opens email. Replace <code>REPLACE_WITH_YOUR_BOOKING_URL</code> in <code>script.js</code> when you have one.</p>
+          <a class="contact-direct" href="mailto:genzennojapa@gmail.com">genzennojapa@gmail.com</a>
+        </div>
+        <form class="inquiry-form" id="inquiryForm" action="https://formspree.io/f/REPLACE_WITH_FORM_ID" method="POST" data-reveal>
+          <p class="form-intro">A few details are enough to get started.</p>
+          <label for="contact-name">Your name</label>
+          <input id="contact-name" name="name" autocomplete="name" aria-describedby="contact-name-error" required minlength="2" placeholder="How should I address you?">
+          <span class="field-error" id="contact-name-error"></span>
+          <label for="contact-email">Work email</label>
+          <input id="contact-email" name="email" type="email" autocomplete="email" aria-describedby="contact-email-error" required placeholder="you@company.com">
+          <span class="field-error" id="contact-email-error"></span>
+          <label for="contact-project">What would you like to improve?</label>
+          <textarea id="contact-project" name="message" rows="4" aria-describedby="contact-project-error" required minlength="12" placeholder="A funnel, a follow-up flow, a web build…"></textarea>
+          <span class="field-error" id="contact-project-error"></span>
+          <div class="form-footer"><button type="submit" class="button button-dark">Send inquiry <span aria-hidden="true">↗</span></button><span class="form-microcopy">No pressure. Just a useful first conversation.</span></div>
+          <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+          <p class="form-setup-note" id="formSetupNote">Setup needed: replace <code>REPLACE_WITH_FORM_ID</code> with your Formspree form ID.</p>
+        </form>
       </div>
     </section>
   </main>
 
-  <footer>
-    <div class="wrap footer-inner">
-      <span>Kirstein Genzen Nojapa</span>
-      <span>Butuan City, Philippines</span>
-    </div>
+  <footer class="site-footer">
+    <div class="wrap footer-inner"><a class="mark" href="index.html">Kirstein Genzen <span>Nojapa</span></a><span>Butuan City, Philippines</span><a href="#top">Back to the beginning ↑</a><span>© <span id="currentYear">2026</span></span></div>
   </footer>
 
+  <div class="custom-cursor" id="customCursor" aria-hidden="true"><span class="cursor-label"></span></div>
+  <p class="easter-egg-toast" id="easterEggToast" role="status" aria-live="polite" hidden></p>
   <script src="script.js"></script>
 </body>
 </html>
